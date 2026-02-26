@@ -22,7 +22,7 @@ while True:
     Input, Input2, MathOperatorIndex = float(input("Number: ")), float(input("Number 2: ")), int(input("Math Operator: "))
 
     if MathOperatorIndex > 4 or MathOperatorIndex < 1:
-        print("Invalid Math Operator selected!")
+        print("Invalid Math Operator selected!\n")
         continue
 
     print(MathOperators[MathOperatorIndex](Input, Input2), "\n")
