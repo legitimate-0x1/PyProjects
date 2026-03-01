@@ -8,7 +8,7 @@ while True:
     Height = float(input("Height: "))
 
     if Acceleration == "":
-        Acceleration = 10
+        Acceleration = 9.81
 
     Acceleration = float(Acceleration)
 
