@@ -12,4 +12,4 @@ while True:
         print("Number A is greater than Number B or equal to It!\n")
         continue
 
-    print("Number A - Number B (Between):", random.randint(NumberA, NumberB - 1), "\n")
+    print("Number A - Number B (Between):", random.randint(NumberA, NumberB), "\n")
