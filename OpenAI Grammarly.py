@@ -18,6 +18,6 @@ while True:
             input = Input,
         )
 
-        print("Grammared Text:", OpenAIAnswer.output_text)
+        print("Grammared Text:", OpenAIAnswer.output_text, "\n")
     except OpenAIError as Reason:
         print("Err:", Reason.code.upper())
