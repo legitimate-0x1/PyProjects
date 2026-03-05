@@ -4,7 +4,10 @@ print("Welcome to Number Primality Checker!\n")
 
 def PrimeCheck(Number):
     IsPrime = True
-
+    
+    if Number != 1:
+        return False
+    
     for Index in range(2, 10):
         if Number % Index == 0 and Number != Index:
             IsPrime = False
