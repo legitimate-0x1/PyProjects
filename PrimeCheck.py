@@ -1,5 +1,7 @@
 # Made by Sovf!
 
+print("Welcome to Number Primality Checker!\n")
+
 def PrimeCheck(Number):
     IsPrime = True
 
