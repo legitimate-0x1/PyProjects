@@ -11,7 +11,7 @@ def AddHTTPs(URL):
         URL = URL.replace(Index, "")
 
     URL = "https://" + URL
-        
+
     return URL
 
 def HttpGet(URL):
@@ -21,4 +21,4 @@ def HttpGet(URL):
         return "An error occurred!"
 
 while True:
-    print("Website Source:", HttpGet(input("Website URL: ")), "\n")
+    print("Website Source:", HttpGet(str(input("Website URL: "))), "\n")
